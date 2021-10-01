@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    @include('includes.header')
+    @include('includes.header', ['menus' => config('main_menu')])
     <main>
         @yield('content')
     </main>

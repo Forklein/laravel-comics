@@ -17,15 +17,11 @@
             <div class="col">
                 <nav>
                     <ul class="d-flex">
-                        <li class="active">
-                            <a href="{{route('home')}}">HOME</a>    
-                        </li>
-                        <li>
-                            <a href="{{route('comics')}}">COMICS</a>
-                        </li>
-                        <li>
-                            <a href="{{route('characters')}}">CHARACTERS</a>
-                        </li>
+                        @foreach($menus as $menu)
+                            <li class="{{ request()->routeIs($menu['route']) ? 'active' : '' }}">
+                                <a href="{{ route($menu['route']) }}">{{$menu['name']}}</a>
+                            </li>
+                        @endforeach
                     </ul>
                 </nav>
             </div>
