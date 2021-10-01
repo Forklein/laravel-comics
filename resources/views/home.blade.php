@@ -7,11 +7,26 @@
         <div class="container">
             <div class="row">
                 @foreach($cards as $key => $card)
-                    <div class="col">
+                    <div class="card">
                         <img src="{{$card['thumb']}}" alt="{{$card['series']}}">
                         <p>{{strtoupper($card['series'])}}</p>
                     </div>
                 @endforeach
+            </div>
+            <div class="row">
+                <div class="col">Load More</div>
+            </div>
+        </div>
+        <div class="bgc-primary">
+            <div class="container">
+                <div class="row">
+                    @foreach($icons as $icon)
+                        <div class="icon d-flex">
+                            <img src="{{asset('images/'.$icon['src'])}}" alt="{{$icon['name']}}">
+                            <p>{{$icon['name']}}</p>
+                        </div>
+                    @endforeach
+                </div>
             </div>
         </div>
     </section>

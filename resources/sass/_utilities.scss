@@ -16,6 +16,10 @@
     text-align: center;
 }
 
+.bgc-primary{
+    background-color: $primary-color;
+}
+
 .active{
     border-bottom: 5px solid $primary-color;
 }

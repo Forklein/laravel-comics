@@ -34,6 +34,10 @@ ul {
   text-align: center;
 }
 
+.bgc-primary {
+  background-color: #0282f9;
+}
+
 .active {
   border-bottom: 5px solid #0282f9;
 }
@@ -82,9 +86,21 @@ main #home {
   background-color: #1c1c1c;
   color: #fff;
 }
-main #home .col {
+main #home .card {
   flex-basis: 16.6666666667%;
   padding: 10px;
+}
+main #home .icon {
+  flex-basis: 20%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+main #home .icon p {
+  padding: 1rem;
+}
+main #home .icon img {
+  width: 50px;
 }
 
 main #comics h1 {
