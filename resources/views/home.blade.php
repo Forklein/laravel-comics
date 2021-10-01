@@ -2,13 +2,18 @@
 
 @section('title', 'Home')
 @section('content')
-<div class="container">
-    <div class="row">
-        @foreach($cards as $key => $card)
-            <div class="col">
-                <p>{{$card['title']}}</p>
+<main>
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                @foreach($cards as $key => $card)
+                    <div class="col">
+                        <img src="{{$card['thumb']}}" alt="{{$card['series']}}">
+                        <p>{{strtoupper($card['series'])}}</p>
+                    </div>
+                @endforeach
             </div>
-        @endforeach
-    </div>
-</div>
+        </div>
+    </section>
+</main>
 @endsection

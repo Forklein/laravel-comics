@@ -42,6 +42,9 @@ img {
   max-width: 100%;
 }
 
+header {
+  margin-bottom: 2rem;
+}
 header .top-bar {
   background-color: #0282f9;
   text-align: right;
@@ -75,4 +78,9 @@ header .menu.container .row li:hover {
 header .jumbotron {
   height: 500px;
   background-image: url("../images/jumbotron.jpg");
+}
+
+main #home .col {
+  flex-basis: 16.6666666667%;
+  padding: 10px;
 }
