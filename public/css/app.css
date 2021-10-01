@@ -42,9 +42,6 @@ img {
   max-width: 100%;
 }
 
-header {
-  margin-bottom: 2rem;
-}
 header .top-bar {
   background-color: #0282f9;
   text-align: right;
@@ -80,7 +77,20 @@ header .jumbotron {
   background-image: url("../images/jumbotron.jpg");
 }
 
+main #home {
+  padding-top: 2rem;
+  background-color: #1c1c1c;
+  color: #fff;
+}
 main #home .col {
   flex-basis: 16.6666666667%;
   padding: 10px;
+}
+
+main #comics h1 {
+  color: #0282f9;
+}
+
+main #characters h1 {
+  color: #0282f9;
 }

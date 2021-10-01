@@ -2,5 +2,11 @@
 
 @section('title', 'Comics')
 @section('content')
-Test
+<main>
+    <section id="comics">
+        <div class="container text-center">
+            <h1>Comics Page</h1>
+        </div>
+    </section>
+</main>
 @endsection
