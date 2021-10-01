@@ -34,6 +34,10 @@ ul {
   text-align: center;
 }
 
+.p-3 {
+  padding: 15px;
+}
+
 .bgc-primary {
   background-color: #0282f9;
 }
@@ -81,6 +85,33 @@ header .jumbotron {
   background-image: url("../images/jumbotron.jpg");
 }
 
+footer .faq {
+  height: 400px;
+  background-image: url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .faq .container {
+  padding: 2rem;
+}
+footer .faq .col {
+  flex-basis: 50%;
+}
+footer .faq .col p {
+  color: #959595;
+}
+footer .faq .col .faq-box {
+  margin-right: 1rem;
+}
+footer .faq .col .faq-box h3 {
+  color: #fff;
+  margin: 10px 0;
+}
+footer .faq .col .faq-box li {
+  color: #959595;
+  font-size: 14px;
+}
+
 main #home {
   padding-top: 2rem;
   background-color: #1c1c1c;
@@ -89,6 +120,15 @@ main #home {
 main #home .card {
   flex-basis: 16.6666666667%;
   padding: 10px;
+}
+main #home .load {
+  margin: 0 auto;
+  background-color: #0282f9;
+  color: #fff;
+  padding: 5px 50px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
 }
 main #home .icon {
   flex-basis: 20%;
@@ -100,7 +140,8 @@ main #home .icon p {
   padding: 1rem;
 }
 main #home .icon img {
-  width: 50px;
+  width: 45px;
+  height: 55px;
 }
 
 main #comics h1 {

@@ -1,0 +1,28 @@
+footer{
+    .faq{
+        .container{
+            padding: 2rem;
+        }
+        height:400px;
+        background-image: url('../images/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        .col{
+            flex-basis: 50%;
+            p{
+                color: $text-footer;
+            }
+            .faq-box{
+                margin-right: 1rem;
+                h3{
+                    color: $text-white;
+                    margin: 10px 0;
+                }
+                li{
+                    color: $text-footer;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

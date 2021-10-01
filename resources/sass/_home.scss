@@ -7,6 +7,15 @@ main{
             flex-basis: calc(100%/6);
             padding: 10px;
         }
+        .load{
+            margin: 0 auto;
+            background-color: $primary-color;
+            color: $text-white;
+            padding: 5px 50px;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            cursor: pointer;
+        }
         .icon{
             flex-basis: calc(100%/5);
             padding: 10px;
@@ -16,7 +25,8 @@ main{
                 padding: 1rem;
             }
             img{
-                width: 50px;
+                width: 45px;
+                height: 55px;
             }
         }
     }
