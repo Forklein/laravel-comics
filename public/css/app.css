@@ -108,6 +108,37 @@ footer .faq .col .faq-box li {
   color: #959595;
   font-size: 14px;
 }
+footer .bg-footer {
+  background-image: url("../images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+footer .social-media {
+  background-color: #303030;
+}
+footer .social-media .row {
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+footer .social-media .row .col:first-child {
+  border: 1px solid #0282f9;
+}
+footer .social-media .row .col:last-child {
+  align-items: center;
+}
+footer .social-media .row .col:last-child p {
+  color: #0282f9;
+  font-weight: bold;
+}
+footer .social-media .row .box {
+  align-items: center;
+  padding: 10px;
+}
+footer .social-media .row .box img {
+  padding: 5px;
+}
 
 main #home {
   padding-top: 2rem;

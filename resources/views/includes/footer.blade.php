@@ -59,7 +59,23 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row"></div>
+    <div class="social-media">
+        <div class="container">
+            <div class="row p-3">
+                <div class="col p-3">
+                    <p>SIGN-UP NOW!</p>
+                </div>
+                <div class="col d-flex">
+                    <p>FOLLOW US</p>
+                    <div class="box d-flex">
+                        <img src="../images/footer-facebook.png" alt="footer-facebook">
+                        <img src="../images/footer-twitter.png" alt="footer-twitter">
+                        <img src="../images/footer-youtube.png" alt="footer-youtube">
+                        <img src="../images/footer-pinterest.png" alt="footer-pinterest">
+                        <img src="../images/footer-periscope.png" alt="footer-periscope">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>

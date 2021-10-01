@@ -22,4 +22,35 @@ footer{
             }
         }
     }
+    .bg-footer{
+        background-image: url('../images/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .social-media{
+        background-color: $bgc-footer;
+        .row{
+            justify-content: space-between;
+            align-items: center;
+            color: $text-white;
+            .col:first-child{
+                border: 1px solid $primary-color;
+            }
+            .col:last-child{
+                align-items: center;
+                p{
+                    color: $primary-color;
+                    font-weight: bold;
+                }
+            }
+            .box{
+                align-items: center;
+                padding: 10px;
+                img{
+                    padding: 5px;
+                }
+            }
+        }
+    }
 }
