@@ -1,0 +1,37 @@
+header{
+    .top-bar{
+        background-color: $primary-color;
+        text-align: right;
+        color: $text-white;
+        .row{
+            justify-content: end;
+            .col p:first-child{
+                margin-right: 2rem;
+            }
+        }
+    }
+    .menu{
+        &.container{
+            color: $text-header;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            .row{
+                justify-content: space-between;
+                align-items: center;
+                li{
+                    margin: 0 0.5rem;
+                    a{
+                        padding: 10px;
+                        transition: border-bottom 0.5s;
+                    }&:hover{
+                        border-bottom: 5px solid $primary-color;
+                    }
+                }
+            }
+        }
+    }
+    .jumbotron{
+        height:500px;
+        background-image: url('../images/jumbotron.jpg');
+    }
+}
