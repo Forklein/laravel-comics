@@ -86,13 +86,9 @@ header .jumbotron {
 }
 
 footer .faq {
-  height: 400px;
   background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-footer .faq .container {
-  padding: 2rem;
 }
 footer .faq .col {
   flex-basis: 50%;
