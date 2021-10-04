@@ -210,3 +210,45 @@ main #comic .container .col .description > p {
 main #comic .container .advertisement {
   text-align: right;
 }
+main #comic .comic-info {
+  background-color: #f6f6f6;
+  padding: 2rem 0;
+}
+main #comic .comic-info .row {
+  justify-content: space-between;
+}
+main #comic .comic-info .talent,
+main #comic .comic-info .specs {
+  flex-basis: calc(50% - 40px);
+}
+main #comic .comic-info .talent h3,
+main #comic .comic-info .specs h3 {
+  margin-bottom: 1rem;
+}
+main #comic .comic-info .talent .art,
+main #comic .comic-info .talent .written,
+main #comic .comic-info .talent .series,
+main #comic .comic-info .talent .price,
+main #comic .comic-info .talent .sales,
+main #comic .comic-info .specs .art,
+main #comic .comic-info .specs .written,
+main #comic .comic-info .specs .series,
+main #comic .comic-info .specs .price,
+main #comic .comic-info .specs .sales {
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 2rem;
+}
+main #comic .comic-info .talent .artists,
+main #comic .comic-info .talent .writers,
+main #comic .comic-info .specs .artists,
+main #comic .comic-info .specs .writers {
+  flex-wrap: wrap;
+  flex-basis: 50%;
+}
+main #comic .comic-info .talent .artists > p,
+main #comic .comic-info .talent .writers > p,
+main #comic .comic-info .specs .artists > p,
+main #comic .comic-info .specs .writers > p {
+  color: #0282f9;
+}

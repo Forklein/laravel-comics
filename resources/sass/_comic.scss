@@ -36,5 +36,36 @@ main{
                 text-align: right;
             }
         }
+        .comic-info{
+            background-color: $comic-info;
+            padding: 2rem 0;
+            .row{
+                justify-content: space-between;
+            }
+            .talent,
+            .specs{
+                flex-basis: calc((100%/2) - 40px);
+                h3{
+                    margin-bottom: 1rem;
+                }
+                .art,
+                .written,
+                .series,
+                .price,
+                .sales{
+                    justify-content: space-between;
+                    border-bottom: 1px solid black;
+                    padding: 2rem;
+                }
+                .artists,
+                .writers{
+                    flex-wrap: wrap;
+                    flex-basis: 50%;
+                    > p{
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
     }
 }
