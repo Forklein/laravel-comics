@@ -4,6 +4,10 @@ main{
             height:50px;
         }
         .container{
+            .thumb{
+                position: relative;
+                bottom: 250px;
+            }
             >p{
                 text-align: right;
                 text-transform: uppercase;
@@ -15,11 +19,17 @@ main{
                 .info{
                     background-color: $info-bar;
                     border-bottom: 1px solid black;
+                    margin-top: 2rem;
+                    color: #fff;
                     .info-price{
                         flex-grow: 1;
                         border-right: 1px solid black;
                         justify-content: space-between;
                     }
+                }
+                .description > p{
+                    line-height: 30px;
+                    margin: 2rem 0;
                 }
             }
             .advertisement{

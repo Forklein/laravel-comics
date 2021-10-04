@@ -179,6 +179,10 @@ main #comics .icon img {
 main #comic .bar {
   height: 50px;
 }
+main #comic .container .thumb {
+  position: relative;
+  bottom: 250px;
+}
 main #comic .container > p {
   text-align: right;
   text-transform: uppercase;
@@ -191,11 +195,17 @@ main #comic .container .col {
 main #comic .container .col .info {
   background-color: #55ba59;
   border-bottom: 1px solid black;
+  margin-top: 2rem;
+  color: #fff;
 }
 main #comic .container .col .info .info-price {
   flex-grow: 1;
   border-right: 1px solid black;
   justify-content: space-between;
+}
+main #comic .container .col .description > p {
+  line-height: 30px;
+  margin: 2rem 0;
 }
 main #comic .container .advertisement {
   text-align: right;
