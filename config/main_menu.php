@@ -2,15 +2,23 @@
 
 return [
     [
-        'name' => 'HOME',
-        'route' => 'home'
+        'name' => 'CHARACTERS',
+        'route' => 'characters'
     ],
     [
         'name' => 'COMICS',
         'route' => 'comics'
     ],
     [
-        'name' => 'CHARACTERS',
-        'route' => 'characters'
+        'name' => 'MOVIES',
+        'route' => 'movies'
+    ],
+    [
+        'name' => 'TV',
+        'route' => 'tv'
+    ],
+    [
+        'name' => 'GAMES',
+        'route' => 'games'
     ],
 ];

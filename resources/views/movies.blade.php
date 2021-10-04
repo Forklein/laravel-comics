@@ -1,11 +1,11 @@
 @extends('layouts.main')
 
-@section('title', 'Characters')
+@section('title', 'Movies')
 @section('content')
 <main>
-    <section class="extrasessions" id="characters">
+    <section class="extrasessions" id="movies">
         <div class="container text-center">
-            <h1>Characters Page</h1>
+            <h1>Movies Page</h1>
         </div>
     </section>
 </main>

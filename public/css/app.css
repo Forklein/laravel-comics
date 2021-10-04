@@ -140,16 +140,20 @@ footer .social-media .row .box img {
   padding: 5px;
 }
 
-main #home {
+main .extrasessions h1 {
+  color: #0282f9;
+}
+
+main #comics {
   padding-top: 2rem;
   background-color: #1c1c1c;
   color: #fff;
 }
-main #home .card {
+main #comics .card {
   flex-basis: 16.6666666667%;
   padding: 10px;
 }
-main #home .load {
+main #comics .load {
   margin: 0 auto;
   background-color: #0282f9;
   color: #fff;
@@ -158,24 +162,16 @@ main #home .load {
   margin-top: 2rem;
   cursor: pointer;
 }
-main #home .icon {
+main #comics .icon {
   flex-basis: 20%;
   padding: 10px;
   justify-content: center;
   align-items: center;
 }
-main #home .icon p {
+main #comics .icon p {
   padding: 1rem;
 }
-main #home .icon img {
+main #comics .icon img {
   width: 45px;
   height: 55px;
-}
-
-main #comics h1 {
-  color: #0282f9;
-}
-
-main #characters h1 {
-  color: #0282f9;
 }

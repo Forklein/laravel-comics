@@ -14,15 +14,34 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $data = config('comics');
-    $data_2 = config('home_icon');
-    return view('home', ['cards' => $data, 'icons' => $data_2]);
-})->name('home');
-
-Route::get('/comics', function () {
-    return view('comics');
-})->name('comics');
+    return redirect('/comics');
+});
 
 Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
+
+
+//# index and show
+Route::get('/comics', function () {
+    $comics = config('comics');
+    $icons = config('home_icon');
+    return view('comics', compact('comics', 'icons'));
+})->name('comics');
+
+Route::get('/comic', function () {
+    return view('comic');
+})->name('comic');
+
+
+Route::get('/movies', function () {
+    return view('movies');
+})->name('movies');
+
+Route::get('/tv', function () {
+    return view('tv');
+})->name('tv');
+
+Route::get('/games', function () {
+    return view('games');
+})->name('games');
