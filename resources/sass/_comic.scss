@@ -1,0 +1,30 @@
+main{
+    #comic{
+        .bar{
+            height:50px;
+        }
+        .container{
+            >p{
+                text-align: right;
+                text-transform: uppercase;
+                color: #555d65;
+                font-weight: bold;
+            }
+            .col{
+                flex-basis: 50%;
+                .info{
+                    background-color: $info-bar;
+                    border-bottom: 1px solid black;
+                    .info-price{
+                        flex-grow: 1;
+                        border-right: 1px solid black;
+                        justify-content: space-between;
+                    }
+                }
+            }
+            .advertisement{
+                text-align: right;
+            }
+        }
+    }
+}

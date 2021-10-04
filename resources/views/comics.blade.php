@@ -8,7 +8,9 @@
             <div class="row">
                 @foreach($comics as $key => $comic)
                     <div class="card">
-                        <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
+                        <a href="{{route('comic', ['id' => $loop->index])}}">
+                            <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
+                        </a>
                         <p>{{strtoupper($comic['series'])}}</p>
                     </div>
                 @endforeach

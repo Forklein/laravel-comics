@@ -175,3 +175,28 @@ main #comics .icon img {
   width: 45px;
   height: 55px;
 }
+
+main #comic .bar {
+  height: 50px;
+}
+main #comic .container > p {
+  text-align: right;
+  text-transform: uppercase;
+  color: #555d65;
+  font-weight: bold;
+}
+main #comic .container .col {
+  flex-basis: 50%;
+}
+main #comic .container .col .info {
+  background-color: #55ba59;
+  border-bottom: 1px solid black;
+}
+main #comic .container .col .info .info-price {
+  flex-grow: 1;
+  border-right: 1px solid black;
+  justify-content: space-between;
+}
+main #comic .container .advertisement {
+  text-align: right;
+}
