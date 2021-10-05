@@ -74,6 +74,18 @@
                 </div>
             </div>
         </div>
+        <div class="icons">
+            <div class="container">
+                <div class="row p-3">
+                    @foreach($icons as $icon)
+                        <div class="icon d-flex">
+                            <img src="{{asset('images/'.$icon['src'])}}" alt="{{$icon['name']}}">
+                            <p>{{strtoupper($icon['name'])}}</p>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 @endsection

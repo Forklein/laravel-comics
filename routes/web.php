@@ -26,15 +26,16 @@ Route::get('/characters', function () {
 //# index and show
 Route::get('/comics', function () {
     $comics = config('comics');
-    $icons = config('home_icon');
+    $icons = config('comics_icon');
     return view('comics', compact('comics', 'icons'));
 })->name('comics');
 
 Route::get('/comics/{id}', function ($id) {
     $comics = config('comics');
+    $icons = config('comics_icon');
     if (Is_Numeric($id) && $id >= 0 && $id < count($comics)) {
         $comic = $comics[$id];
-        return view('comic', compact('comic'));
+        return view('comic', compact('comic', 'icons'));
     } else {
         abort(404);
     }
