@@ -6,6 +6,11 @@
     <section id="comics">
         <div class="container">
             <div class="row">
+                <div class="series">
+                    {{strtoupper('Current Series')}}
+                </div>
+            </div>
+            <div class="row">
                 @foreach($comics as $key => $comic)
                     <div class="card">
                         <a href="{{route('comic', ['id' => $loop->index])}}">

@@ -149,6 +149,13 @@ main #comics {
   background-color: #1c1c1c;
   color: #fff;
 }
+main #comics .series {
+  background-color: #0282f9;
+  color: #fff;
+  padding: 5px 50px;
+  position: relative;
+  bottom: 45px;
+}
 main #comics .card {
   flex-basis: 16.6666666667%;
   padding: 10px;
