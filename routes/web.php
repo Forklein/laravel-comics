@@ -1,5 +1,6 @@
 <?php
 
+use Hamcrest\Type\IsNumeric;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,8 +32,12 @@ Route::get('/comics', function () {
 
 Route::get('/comics/{id}', function ($id) {
     $comics = config('comics');
-    $comic = $comics[$id];
-    return view('comic', compact('comic'));
+    if (Is_Numeric($id) && $id >= 0 && $id < count($comics)) {
+        $comic = $comics[$id];
+        return view('comic', compact('comic'));
+    } else {
+        abort(404);
+    }
 })->name('comic');
 
 
